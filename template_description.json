@@ -2,13 +2,13 @@
   "Authors": ["Janke AL"],
   "Acknowledgements": "Curated and added to TemplateFlow by Esteban O",
   "BIDSVersion": "1.1.0",
-  "HowToAcknowledge": "",
+  "HowToAcknowledge": "Pleace cite Evans AC et al. 2012",
   "Identifier": "MNI152NLin6Asym",
   "License": "See LICENSE file",
   "Name": "FSL's MNI ICBM 152 non-linear 6th Generation Asymmetric Average Brain Stereotaxic Registration Model",
   "RRID": "SCR_002823",
   "ReferencesAndLinks": [
-    "Grabner G., Janke A.L., Budge M.M., Smith D., Pruessner J., Collins D.L. (2006) Symmetric Atlasing and Model Based Segmentation: An Application to the Hippocampus in Older Adults. In: Larsen R., Nielsen M., Sporring J. (eds) Medical Image Computing and Computer-Assisted Intervention – MICCAI 2006. MICCAI 2006. Lecture Notes in Computer Science, vol 4191. Springer, Berlin, Heidelberg. doi:10.1007/11866763_8",
+    "Evans AC, Janke AL, Collins DL, and Baillet Sylvain, Brain templates and atlases, NeuroImage 62(2):911-922, 2012. doi:10.1016/j.neuroimage.2012.01.024",
     "https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Atlases"],
   "TemplateFlowVersion": "1.0.0",
   "res": {

@@ -27,10 +27,9 @@ def sanitize(input_fname):
     nii.header.set_qform(sform, 4)
     nii.header.set_slope_inter(slope=slope, inter=inter)
     nii.header.set_xyzt_units(xyz='mm')
-    print(nii.header['scl_slope'])
     nii.to_filename(str(input_fname))
 
-for f in Path().glob('tpl-*_atlas-HO*.nii.gz'):
+for f in Path().glob('tpl-*_atlas-Schaefer*.nii.gz'):
     print('Sanitizing file %s' % f)
     sanitize(f)
 

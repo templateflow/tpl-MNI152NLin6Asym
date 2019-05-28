@@ -13,9 +13,6 @@ def sanitize(input_fname):
     if 'atlas-HO' in str(input_fname):
         dtype = 'uint8'
 
-        if str(input_fname).endswith('atlas-HOSPA_probseg.nii.gz'):
-            dtype = 'float32'
-
         if str(input_fname).endswith('_probseg.nii.gz'):
             slope = 0.01
 
@@ -29,7 +26,7 @@ def sanitize(input_fname):
     nii.header.set_xyzt_units(xyz='mm')
     nii.to_filename(str(input_fname))
 
-for f in Path().glob('tpl-*_atlas-Schaefer*.nii.gz'):
+for f in Path().glob('tpl-*_atlas-*.nii.gz'):
     print('Sanitizing file %s' % f)
     sanitize(f)
 

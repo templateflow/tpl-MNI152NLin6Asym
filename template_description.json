@@ -1,6 +1,6 @@
 {
   "Authors": ["Janke AL"],
-  "Acknowledgements": "Curated and added to TemplateFlow by Esteban O",
+  "Acknowledgements": "Curated and added to TemplateFlow by Esteban O and Goncalves M.",
   "BIDSVersion": "1.1.0",
   "HowToAcknowledge": "Pleace cite Evans AC et al. 2012",
   "Identifier": "MNI152NLin6Asym",
@@ -33,6 +33,11 @@
       "zooms": [0.7, 0.7, 0.7]
     },
     "05": {
+      "origin": [-90.8, -126.0, -72.0],
+      "shape": [227, 272, 227],
+      "zooms": [0.8, 0.8, 0.8]
+    },
+    "06": {
       "origin": [-89.2, -126.0, -72.0],
       "shape": [113, 136, 113],
       "zooms": [1.6, 1.6, 1.6]

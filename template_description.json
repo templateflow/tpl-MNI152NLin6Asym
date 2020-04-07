@@ -1,10 +1,11 @@
 {
-  "Acknowledgements": "Curated and added to TemplateFlow by Esteban O and Goncalves M.",
   "Authors": [
     "Janke AL"
   ],
   "BIDSVersion": "1.1.0",
-  "HowToAcknowledge": "Reference the following entries from the ReferencesAndLinks field: {1}",
+  "Curators": [
+    "Esteban O and Goncalves M"
+  ],
   "Identifier": "MNI152NLin6Asym",
   "License": "See LICENSE file",
   "Name": "FSL's MNI ICBM 152 non-linear 6th Generation Asymmetric Average Brain Stereotaxic Registration Model",

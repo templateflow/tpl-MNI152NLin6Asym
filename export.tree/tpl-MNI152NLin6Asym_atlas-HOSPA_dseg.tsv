@@ -1,0 +1,21 @@
+index	name	xyz
+0	Left Cerebral White Matter	58, 37, 50
+1	Left Cerebral Cortex 	70, 63, 35
+2	Left Lateral Ventrical	57, 40, 41
+3	Left Thalamus	51, 51, 39
+4	Left Caudate	51, 71, 38
+5	Left Putamen	56, 67, 34
+6	Left Pallidum	54, 62, 35
+8	Left Hippocampus	59, 54, 27
+9	Left Amygdala	57, 61, 27
+10	Left Accumbens	50, 70, 33
+11	Right Cerebral White Matter	29, 38, 51
+12	Right Cerebral Cortex 	25, 42, 61
+13	Right Lateral Ventricle	35, 45, 44
+14	Right Thalamus	38, 51, 39
+15	Right Caudate	39, 72, 37
+16	Right Putamen	34, 68, 34
+17	Right Pallidum	35, 61, 35
+18	Right Hippocampus	31, 57, 25
+19	Right Amygdala	32, 63, 25
+20	Right Accumbens	40, 69, 32

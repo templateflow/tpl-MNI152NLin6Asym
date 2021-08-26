@@ -1,0 +1,2 @@
+32b9a0cb-1da3-4eec-bba9-5295881bc365 autoenable=true location=https://gin.g-node.org/templateflow/tpl-MNI152NLin6Asym.git name=gin type=git timestamp=1629987187.43555s
+be06b1c2-7d35-4bcb-8c30-88e1a1b687fd bucket=templateflow datacenter=US encryption=none exporttree=yes fileprefix=tpl-MNI152NLin6Asym/ host=s3.amazonaws.com name=public-s3 port=80 public=yes storageclass=STANDARD type=S3 timestamp=1583952432.477702s

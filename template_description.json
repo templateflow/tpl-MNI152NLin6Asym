@@ -15,6 +15,7 @@
     "https://doi.org/10.1016/j.neuroimage.2012.01.024",
     "https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Atlases"
   ],
+  "Species": "Homo sapiens",
   "TemplateFlowVersion": "1.0.0",
   "res": {
     "01": {

@@ -1,0 +1,37 @@
+{
+  "Authors": [
+    "Glasser MF",
+    "Coalson TS",
+    "Robinson EC",
+    "Hacker CD",
+    "Harwell J",
+    "Yacoub E",
+    "Ugurbil K",
+    "Andersson J",
+    "Beckmann CF",
+    "Jenkinson M",
+    "Smith SM",
+    "Van Essen DC",
+    "Bedini M",
+    "Olivetti E",
+    "Avesani P",
+    "Baldauf D"
+  ],
+  "Curators": [
+    "Hamati R"
+  ],
+  "Identifier": "GlasserHCPMMP1",
+  "License": "GPL-3.0",
+  "Name": "Human Connectome Project Multi-Modal Parcellation version 1.0",
+  "Description": "A multi-modal parcellation of human cerebral cortex based on data from the Human Connectome Project. Contains 180 areas per hemisphere (360 total) defined using surface-based registration of cortical folding, myelin maps, and resting-state functional connectivity. Note: This volumetric version is provided for convenience but surface-based analysis is recommended for accurate localization.",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1038/nature18933",
+    "https://doi.org/10.1007/s00429-023-02641-y",
+    "https://github.com/mbedini/The-HCP-MMP1.0-atlas-in-FSL"
+  ],
+  "Species": "Homo sapiens",
+  "Processing": {
+    "res-01": "Resampled from original 256x256x256 atlas using: flirt -in MNI_Glasser_HCP_v1.0.nii.gz -ref <res-01_reference> -out <output> -applyxfm -usesqform -interp nearestneighbour",
+    "res-02": "Resampled from original 256x256x256 atlas using: flirt -in MNI_Glasser_HCP_v1.0.nii.gz -ref <res-02_reference> -out <output> -applyxfm -usesqform -interp nearestneighbour"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "Description": "Local regridding of the existing MNI-space Diedrichsen anatomical atlas onto the full TemplateFlow MNI152NLin6Asym 1 mm grid.",
+  "SourceRepository": "https://github.com/DiedrichsenLab/cerebellar_atlases",
+  "SourceCommit": "1b62fdc0954d34ed768ec36e81ce6a007dbe9e3c",
+  "SourceSHA256": "434471d89ff329e6e14cdecb66998018fe0dcadbbe47781429148d0017598b72",
+  "ReferenceSHA256": "f675946c0a077e0682885c3d6085f10acb0dd22b2274a6cbbf04969c08a77258",
+  "SpatialReference": "MNI152NLin6Asym",
+  "Interpolation": "NearestNeighbor",
+  "Registration": "Identity in world coordinates; source is already aligned to the target template space.",
+  "SourceVoxelToTargetVoxel": [
+    [
+      -1.0,
+      0.0,
+      0.0,
+      167.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      18.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "Validation": {
+    "Labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "EveryNonzeroLabelVoxelCountPreserved": true,
+    "NonzeroVoxelCount": 164802,
+    "ExactRoundTrip": true,
+    "GridMatchesReference": true
+  },
+  "References": [
+    "https://doi.org/10.1016/j.neuroimage.2009.01.045",
+    "https://doi.org/10.1016/j.neuroimage.2010.10.035"
+  ],
+  "License": "See licenses/Diedrichsen2009/LICENSE",
+  "Sources": [
+    "https://github.com/DiedrichsenLab/cerebellar_atlases/blob/1b62fdc0954d34ed768ec36e81ce6a007dbe9e3c/Diedrichsen_2009/atl-Anatom_space-MNI_dseg.nii",
+    "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin6Asym/tpl-MNI152NLin6Asym_res-01_T1w.nii.gz"
+  ]
+}
